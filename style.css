@@ -53,6 +53,10 @@ body {
   text-transform: uppercase;
   color: black;
 }
+
+.menu-nav li a:hover{
+  color: #ff7931;
+}
 /*Стили логотипа*/
 .logo{
   margin-top: 47px;
@@ -194,7 +198,7 @@ button b{
   line-height: 14px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  padding-top: 3px;
+  padding-top: 10px;
 }
 /*Оформление подвала*/
 footer{
@@ -217,6 +221,10 @@ footer{
 
 .footer .menu-nav li a{  
   color: white;  
+}
+
+.footer .menu-nav li a:hover{
+  color: #ff7931;
 }
 
 .border{
